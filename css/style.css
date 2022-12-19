@@ -481,7 +481,7 @@ footer {
 
 .container-form input,
 .container-form form .input-group:focus,
-.input-group-text {
+.container-form .input-group-text {
   background: #f7e8e7 !important;
 }
 
