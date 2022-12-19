@@ -31,6 +31,10 @@
   .section-four {
     margin-top: 10rem;
   }
+
+  .container-form {
+    width: 52%;
+  }
 }
 
 @media (max-width: 1199.98px) {
@@ -58,6 +62,9 @@
     font-size: 1.5rem;
   }
 
+  .container-form {
+    width: 62%;
+  }
 }
 
 @media (max-width: 991.98px) {
@@ -130,6 +137,21 @@
     width: 30px;
     height: 30px;
   }
+
+  .container-form {
+    width: 72%;
+  }
+
+  .container-form form .input-group,
+  .container-form button:hover,
+  .container-form button {
+    height: 45px;
+  }
+
+  .container-form form {
+    padding: 3rem;
+  }
+
 }
 
 @media (max-width: 767.98px) {
@@ -209,6 +231,16 @@
     height: 3rem;
     width: 10rem;
   }
+
+  .container-form {
+    width: 82%;
+  }
+
+  .container-form button,
+  .container-form button:hover,
+  .container-form button:active {
+    font-size: 15px;
+  }
 }
 
 @media (max-width: 575.98px) {
@@ -269,11 +301,32 @@
   .navbar button {
     font-size: 14px;
   }
-  .navbar .dropdown-menu{
+
+  .navbar .dropdown-menu {
     padding: 5px 0;
   }
-  .dropdown-item{
+
+  .dropdown-item {
     font-size: 14px;
+  }
+
+  .container-form {
+    width: 90%;
+  }
+
+  .container-form button,
+  .container-form button:hover,
+  .container-form button:active {
+    font-size: 14px;
+  }
+
+  .container-form form .input-group,
+  .container-form button:hover,
+  .container-form button {
+    height: 40px;
+  }
+  .container-form form {
+    padding: 2rem;
   }
 }
 
@@ -327,7 +380,8 @@
   .social i {
     font-size: 1rem;
   }
-  .card ul li{
+
+  .card ul li {
     font-size: 14px;
   }
 }
