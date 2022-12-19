@@ -24,7 +24,7 @@
   <section class="container-form my-5 mx-auto">
 
     <div class="d-flex justify-content-between mb-4">
-      <h3 class="text-center mb-3 mb-md-4">تسجيل الدخول</h3>
+      <h3 class="text-center mb-3 mb-md-4">التسجيل</h3>
       <div class="nav-item dropdown">
         <a class="nav-link dropdown-toggle d-flex align-items-center" href="#" id="navbarDropdown" role="button"
           data-bs-toggle="dropdown" aria-expanded="false">
@@ -38,6 +38,20 @@
     </div>
     <form action="" class="w-100">
       <div class="input-group mb-4">
+        <span class="input-group-text" id="email">
+          <img src="./images/mail.svg" alt="">
+        </span>
+        <input type="email" class="form-control text-start" placeholder="البريد الإلكتروني " aria-label="email"
+          aria-describedby="email">
+      </div>
+      <div class="input-group mb-4">
+        <span class="input-group-text" id="password">
+          <i class="fa-sharp fa-solid fa-eye-slash"></i>
+        </span>
+        <input type="password" class="form-control" placeholder="كلمة المرور" aria-label="pass"
+          aria-describedby="password">
+      </div>
+      <div class="input-group mb-4">
         <span class="input-group-text" id="phone-num">
           <img src="./images/iconT.svg" alt="">
         </span>
@@ -45,19 +59,16 @@
           aria-describedby="phone-num">
       </div>
       <button class="btn d-flex align-items-center justify-content-center w-100">
-        استمرار
+        تسجيل
       </button>
       <h6 class="text-center my-4">أو</h6>
-      <button class="btn d-flex align-items-center justify-content-center w-100 my-3 border-btn">
-        تسجيل الدخول عن طريق الإيميل
-      </button>
       <button class="btn d-flex align-items-center justify-content-center w-100 border-btn">
         <img src="./images/google.png" class="mx-3" alt="">
         <span>الاستمرار عن طريق Google</span>
       </button>
     </form>
-    <p class="font-14 my-4 d-flex justify-content-center">لا تمتلك حساباً؟ <a href="./signup.html"
-        class="mx-2">تسجيل</a></p>
+    <p class="font-14 my-4 d-flex justify-content-center">لديك حساب بالفعل ؟ <a href="./login.html"
+        class="mx-2">تسجيل الدخول</a></p>
 
     <div class="my-5 d-flex justify-content-center">
       <a href="#">

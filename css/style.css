@@ -44,7 +44,7 @@ a {
 }
 
 .navbar-light .navbar-nav .nav-link,
-.nav-link {
+.nav-link,.login-text {
   color: #fff !important;
 }
 
@@ -446,27 +446,72 @@ footer {
 }
 
 /* form */
-.container-form {
-  width: 40%;
+.fa-eye-slash{
+  color: #BC3943;
+}
+.login {
+  background-color: #F8F8F8;
 }
 
-.container-form h2 {
-  color: #fff;
+.container-form {
+  width: 42%;
 }
 
-.container-form {
-  background-image: linear-gradient(to right, #bba7a7, #565d8e);
+.container-form form .input-group,
+.container-form button:hover,
+.container-form button {
+  height: 55px;
+}
+
+.container-form h3 {
+  color: #E33C30;
+}
+
+.container-form .nav-link {
+  color: #273169 !important;
+}
+
+.container-form form {
+  background-color: #fff;
+  /* background-image: linear-gradient(to right, #bba7a7, #565d8e); */
   padding: 4rem;
   border-radius: 2rem;
-  box-shadow: 0px 3px 23px #ddd;
+  box-shadow: 0px 0px 2px #e6cecd;
+}
+
+.container-form input,
+.container-form form .input-group:focus,
+.input-group-text {
+  background: #f7e8e7 !important;
 }
 
 .container-form button,
 .container-form button:hover,
 .container-form button:active {
   background-color: #E33C30;
+  font-size: 1rem;
 }
 
+.container-form .border-btn:hover,
+.container-form .border-btn {
+  background-color: transparent;
+  border: 1px solid #E33C30 !important;
+  color: #E33C30;
+}
+
+.container-form .border-btn img {
+  width: 30px;
+  height: 30px;
+}
+.font-14{
+  font-size: 14px;
+}
+.font-14 a{
+  color: #E33C30 !important;
+}
+.fa-brands{
+  color: forestgreen;
+}
 /* new edit */
 .input-group-text img {
   filter: invert(1);
