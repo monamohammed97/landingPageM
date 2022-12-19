@@ -1,0 +1,333 @@
+@media (max-width: 1399.98px) {
+  .fs-3-rem {
+    font-size: 2.5rem;
+  }
+
+  .fs-4-rem {
+    font-size: 3.5rem;
+  }
+
+  p,
+  .section-two p,
+  .section-four p {
+    font-size: 1.3rem;
+  }
+
+  .section-three .img-s2 {
+    width: 630px;
+  }
+
+  .imgP img {
+    object-fit: contain;
+  }
+
+  .imgP {
+    height: 600px;
+    min-height: 600px;
+    margin-bottom: -3.875rem !important;
+    transform: translateY(-15%);
+  }
+
+  .section-four {
+    margin-top: 10rem;
+  }
+}
+
+@media (max-width: 1199.98px) {
+  .fs-3-rem {
+    font-size: 2.3rem;
+  }
+
+  .fs-4-rem {
+    font-size: 3rem;
+  }
+
+  form {
+    width: 90%;
+  }
+
+  .section-three .img-s2 {
+    width: 100%;
+    min-height: 430px;
+  }
+
+  /* .box-text {
+    transform: translateY(-50%);
+  } */
+  .social i {
+    font-size: 1.5rem;
+  }
+
+}
+
+@media (max-width: 991.98px) {
+  .fs-3-rem {
+    font-size: 2rem;
+  }
+
+  .fs-4-rem {
+    font-size: 2.8rem;
+  }
+
+  p,
+  .section-two p,
+  .section-four p {
+    font-size: 1rem;
+  }
+
+  form {
+    width: 100%;
+  }
+
+  .btn-send:hover,
+  .btn-send {
+    font-size: 1rem;
+  }
+
+  .video {
+    margin-right: 6rem;
+  }
+
+  .navbar-nav .nav-item,
+  .navbar button {
+    font-size: 1rem;
+  }
+
+  .img-s2 {
+    width: 80%;
+    margin: auto;
+    min-height: auto;
+  }
+
+  .img-s2 img {
+    object-fit: contain;
+  }
+
+  .section-four {
+    margin-top: 0;
+  }
+
+  .section-four p {
+    width: 100%;
+  }
+
+  .imgP {
+    transform: translateY(0);
+    width: 85%;
+    margin-bottom: 1rem !important;
+  }
+
+  .card {
+    width: calc(90%/2);
+    margin-bottom: 2rem;
+  }
+
+  footer .footer {
+    height: 50px;
+  }
+
+  .icons .social {
+    width: 30px;
+    height: 30px;
+  }
+}
+
+@media (max-width: 767.98px) {
+  .form-control {
+    font-size: 14px;
+  }
+
+  .fs-3-rem {
+    font-size: 1.8rem;
+  }
+
+  .fs-4-rem {
+    font-size: 2.5rem;
+  }
+
+  p,
+  .section-two p,
+  .section-four p {
+    font-size: .9rem;
+  }
+
+  .video {
+    margin-right: 0;
+  }
+
+  .content {
+    display: flex;
+    justify-content: center;
+    margin-top: 2rem;
+  }
+
+  .hero-section-h {
+    height: 1000px;
+  }
+
+  .content {
+    margin-top: 0;
+  }
+
+  .section-two p {
+    width: 100% !important;
+  }
+
+  .imgP {
+    width: 100%;
+    min-height: auto;
+    height: auto;
+    margin-top: 1rem;
+  }
+
+  .section-six h2 {
+    width: 80%;
+    margin: auto;
+    margin-bottom: 2rem;
+    line-height: 1.7;
+  }
+
+  .card {
+    width: calc(95%/2);
+  }
+
+  .container-form button,
+  .container-form button:hover,
+  .container-form button:active,
+  .section-six button,
+  .section-six button:hover,
+  .section-six button:active,
+  .section-four button,
+  .section-four button:hover,
+  .section-four button:active,
+  .section-two button,
+  .section-two button:hover,
+  .section-two button:active,
+  .section-three button,
+  .section-three button:hover,
+  .section-three button:active {
+    height: 3rem;
+    width: 10rem;
+  }
+}
+
+@media (max-width: 575.98px) {
+  .fs-3-rem {
+    font-size: 1.5rem;
+  }
+
+  .fs-4-rem {
+    font-size: 2rem;
+  }
+
+  .video {
+    width: 200px;
+    height: 400px;
+  }
+
+  .hero-section-h {
+    height: 820px;
+  }
+
+  .img-s2 {
+    width: 100%;
+    margin: auto;
+  }
+
+  .section-four button,
+  .section-four button:hover,
+  .section-four button:active,
+  .section-two button,
+  .section-two button:hover,
+  .section-two button:active,
+  .section-three button,
+  .section-three button:hover,
+  .section-three button:active {
+    width: 10rem;
+    font-size: 1rem;
+    height: 2.5rem;
+    width: 8rem;
+  }
+
+  .section-three .img-s2 {
+    min-height: auto;
+  }
+
+  .card {
+    width: 90%;
+    margin: auto;
+    margin-bottom: 2rem;
+  }
+
+  .social i {
+    font-size: 1.2rem;
+  }
+
+  .navbar-light .navbar-nav .nav-link,
+  .nav-link,
+  .navbar-nav .nav-item,
+  .navbar button {
+    font-size: 14px;
+  }
+  .navbar .dropdown-menu{
+    padding: 5px 0;
+  }
+  .dropdown-item{
+    font-size: 14px;
+  }
+}
+
+@media (max-width: 375.98px) {
+  .fs-3-rem {
+    font-size: 1.1rem;
+  }
+
+  .fs-4-rem {
+    font-size: 1.8rem;
+  }
+
+  p,
+  .section-two p,
+  .section-four p {
+    font-size: .8rem;
+  }
+
+  .video {
+    width: 160px;
+    height: 325px;
+  }
+
+  .hero-section-h {
+    height: 720px;
+  }
+
+  .img-s2,
+  .section-three .img-s2 {
+    height: 300px;
+    min-height: auto;
+  }
+
+  footer {
+    height: 60px;
+  }
+
+  footer .footer {
+    height: 40px;
+  }
+
+  .icons .social {
+    width: 25px;
+    height: 25px;
+  }
+
+  .form-control {
+    font-size: 12px;
+  }
+
+  .social i {
+    font-size: 1rem;
+  }
+  .card ul li{
+    font-size: 14px;
+  }
+}
